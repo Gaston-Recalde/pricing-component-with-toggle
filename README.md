@@ -15,7 +15,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/pricing%20component.png)
 
 ### Links
 

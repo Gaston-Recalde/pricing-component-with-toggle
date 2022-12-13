@@ -43,9 +43,10 @@
                 left: 10%;
                 transition: all .300s ease-in-out;
 
-                &:active{
-                    left: 50%;
-                }
+            }
+
+            .toggle-active{
+                left: 50%;
             }
         }
     }
@@ -79,6 +80,23 @@
                 font-size: 64px;
                 color: $dark-grayish-blue;
                 margin-bottom: 25px;
+                display: none;
+            }
+
+            .card__h2-annually{
+                display: inline-block;
+            }
+
+            .card__h2-annually-close{
+                display: none;
+            }
+
+            .card__h2-monthly{
+                display: none;
+            }
+
+            .card__h2-monthly-open{
+                display: inline-block;
             }
 
             hr{

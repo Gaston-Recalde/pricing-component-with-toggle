@@ -79,7 +79,7 @@ body {
   left: 10%;
   transition: all 0.3s ease-in-out;
 }
-.header__selected .header__toggle .toggle:active {
+.header__selected .header__toggle .toggle-active {
   left: 50%;
 }
 
@@ -110,6 +110,19 @@ body {
   font-size: 64px;
   color: hsl(232deg, 13%, 33%);
   margin-bottom: 25px;
+  display: none;
+}
+.price__card .card__container .card__h2-annually {
+  display: inline-block;
+}
+.price__card .card__container .card__h2-annually-close {
+  display: none;
+}
+.price__card .card__container .card__h2-monthly {
+  display: none;
+}
+.price__card .card__container .card__h2-monthly-open {
+  display: inline-block;
 }
 .price__card .card__container hr {
   background-color: hsl(234deg, 14%, 74%);
