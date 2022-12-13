@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  background-color: hsl(234deg, 14%, 74%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+}
+.header__h1 {
+  color: hsl(232deg, 13%, 33%);
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+.header__selected {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.header__selected span {
+  color: hsl(233deg, 13%, 49%);
+}
+.header__selected .header__toggle {
+  width: 65px;
+  height: 35px;
+  background-image: linear-gradient(to right, hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  border-radius: 50px;
+  position: relative;
+}
+.header__selected .header__toggle:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.header__selected .header__toggle .toggle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background-color: hsl(240deg, 78%, 98%);
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  transition: all 0.3s ease-in-out;
+}
+.header__selected .header__toggle .toggle:active {
+  left: 50%;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.price__card {
+  width: 325px;
+  margin: 0 auto;
+  background-color: hsl(240deg, 78%, 98%);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.price__card .card__container {
+  width: 86%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px 0;
+}
+.price__card .card__container .card__category {
+  color: hsl(232deg, 13%, 33%);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.price__card .card__container .card__h2 {
+  font-size: 64px;
+  color: hsl(232deg, 13%, 33%);
+  margin-bottom: 25px;
+}
+.price__card .card__container hr {
+  background-color: hsl(234deg, 14%, 74%);
+}
+.price__card .card__container .card__p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: hsl(233deg, 13%, 49%);
+}
+.price__card .card__container .card__button {
+  margin-top: 25px;
+  width: 100%;
+  color: hsl(240deg, 78%, 98%);
+  padding: 14px 0;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 1.3px;
+}
+.price__card .card__container .card__button:hover {
+  cursor: pointer;
+  border: 1px solid hsl(237deg, 63%, 64%);
+  background-image: inherit;
+  color: hsl(237deg, 63%, 64%);
+}
+.price__card-second {
+  background-image: linear-gradient(to right, hsl(236deg, 72%, 79%), hsl(237deg, 63%, 64%));
+}
+.price__card-second .card__container .card__category, .price__card-second .card__container .card__h2, .price__card-second .card__container hr, .price__card-second .card__container .card__p {
+  color: hsl(240deg, 78%, 98%);
+}
+.price__card-second .card__container .card__button {
+  color: hsl(237deg, 63%, 64%);
+  background-color: hsl(240deg, 78%, 98%);
+  background-image: none;
+}
+.price__card-second .card__container .card__button:hover {
+  color: hsl(240deg, 78%, 98%);
+  background-color: transparent;
+  border: 1px solid hsl(240deg, 78%, 98%);
+}/*# sourceMappingURL=style.css.map */
