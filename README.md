@@ -15,11 +15,11 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ### Screenshot
 
-![](./images/pricing%20component.png)
+![](./images/pricing-component.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://soft-cupcake-f576ca.netlify.app)
 
 ## My process
 
